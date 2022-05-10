@@ -1,8 +1,9 @@
 body {
 	background: white;
 	font-family: arial, sans-serif;
-	background-color: #3FA9E2;
+	background-color: #c9e9fa;
 	font-size: 0.75em;
+  text-align: center;
   }
 
 .btn {
@@ -75,23 +76,24 @@ body {
 		/* margin: auto; */
 		/* width: 40%; */
 		/* min-height: 15em; */
-		background-color: #CDD93F;
+		background-color: rgb(199, 199, 247);
 		top: 0em;
 		right: 0em;
 		margin-right: 1em;
 		padding: 1em;
 		/* border: 0.1em solid; */
 		border-radius: 0.25em;
+    text-align: center;
 		/* z-index: 1000; */
 	}
 
 	.cartTotal {
-		position: fixed;
+		/* position: fixed; */
 		/* width: 100%; */
 		/* margin: auto; */
 		width: 20%;
 		/* min-height: 15em; */
-		background-color: #CDD93F;
+		background-color:rgb(218, 218, 247);
 		top: 0em;
 		right: 0em;
 		margin-right: 1em;
@@ -141,15 +143,15 @@ body {
 	}
 
   	.small {
-		background-color: #E03571;
+		background-color: greenyellow;
   	}
   
   .medium {
-	background-color: #E2AE3D;
+	background-color: plum;
   }
   
   .large {
-	background-color: #E06733;
+	background-color: rgb(228, 118, 118);
 	flex : 2;
   }
   
@@ -177,6 +179,8 @@ body {
   
   .footer {
 	display: flex;
+  background-color: rgb(255, 255, 95);
+  margin: 10px;
   }
   
   .hidden {
@@ -247,7 +251,9 @@ th, td {
 		width: 50%;
 		/* width: 40%; */
 		/* margin: auto; */
+    text-align: center;
 		margin: 1em;
+    
 	}
 
 	.pizzas {
@@ -258,10 +264,4 @@ th, td {
 	  font-size: 1em;
 	}
 	
-  }
-  
-  
-  
-  
-  
-  
+  };
